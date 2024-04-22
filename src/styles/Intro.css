@@ -1,0 +1,47 @@
+.intro-container {
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('../poza1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+  }
+  
+  .intro-content h1 {
+    margin-top: 0; 
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .intro-content {
+    text-align: center; 
+  }
+  
+  .intro-content p {
+    max-width: 600px; 
+    margin: 0 auto; 
+    color: #333333; 
+  }
+  
+  button.transparent-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent; 
+    color: #ffffff;
+    border: 2px solid #104857; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+  }
+  
+  button.transparent-button:hover {
+    background-color: #104857; 
+    color: #ffffff;
+  }
+  
